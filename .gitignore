@@ -1,0 +1,151 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/c,windows,linux,macos,visualstudiocode
+# Editar en https://www.toptal.com/developers/gitignore?templates=c,windows,linux,macos,visualstudiocode
+
+### C ###
+# Requisitos previos
+*.d
+
+# Archivos de objeto
+*.o
+*.ko
+*.obj
+*.elf
+
+# Salida del enlazador
+*.ilk
+*.map
+*.exp
+
+# Encabezados precompilados
+*.gch
+*.pch
+
+# Bibliotecas
+*.lib
+*.a
+*.la
+*.lo
+
+# Objetos compartidos (incluidas las DLL de Windows)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Ejecutables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Resultados de la compilación del módulo del kernel
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### Linux ###
+*~
+
+# Archivos temporales que se pueden crear si un proceso aún tiene abierto un identificador de un archivo eliminado.
+.fuse_hidden*
+
+# Preferencias de directorio de KDE
+.directorio
+
+# Carpeta de papelera de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+# Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se está accediendo a él.
+.nfs*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# El icono debe terminar con dos \r
+Icono
+
+
+# Miniaturas
+._*
+
+# Archivos que podrían aparecer en la raíz de un volumen
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.ElementosTemporales
+.Papeleras
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios potencialmente creados en el recurso compartido remoto de AFP
+.AppleDB
+.AppleDesktop
+Carpeta de papelera de red
+Elementos temporales
+.apdisk
+
+### Parche para macOS ###
+# Archivos generados por iCloud
+*.icloud
+
+### Código de Visual Studio ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Historial local para Visual Studio Code
+.history/
+
+# Extensiones de Visual Studio Code creadas
+*.vsix
+
+### Parche de VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historial
+.iónido
+
+### Windows ###
+# Archivos de caché de miniaturas de Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+*.stackdump
+
+# Archivo de configuración de la carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en recursos compartidos de archivos
+$RECYCLE.BIN/
+
+# Archivos del instalador de Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Accesos directos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/c,windows,linux,macos,visualstudiocode
